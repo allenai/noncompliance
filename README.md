@@ -1,4 +1,4 @@
-## The Art of Saying No:\\ Contextual Noncompliance in Language Models
+## The Art of Saying No: Contextual Noncompliance in Language Models
 <p align="left">
   <a href=''>
     <img src='https://img.shields.io/badge/Arxiv-2308.16905-A42C25?style=flat&logo=arXiv&logoColor=A42C25'>
@@ -10,8 +10,9 @@
     <img src="https://img.shields.io/badge/🤗-Data-orange">
   </a>
 
-We introduce 🥥 CoCoNot, a reasouce for evaluating and enhancing **noncompliance** behavior of large language models. 
+We introduce 🥥 **CoCoNot**, a reasouce for **benchmarking and enhancing noncompliance** behavior of large language models. 
 
+### Data
 CoCoNot contains two components:
 - Original Set: For testing and improving contextual noncompliance in LMs.
     - This set contains 1,001 evaluation and 11,477 SFT training examples.
@@ -22,8 +23,11 @@ CoCoNot contains two components:
 
 You can also download and view 🥥 CoCoNot in [🤗 Huggingface]().
 
-## Acknowledgement
-We greatly thank Tulu team for providing awesome [code](https://github.com/allenai/open-instruct) to finetune models.
+### Evaluation
+TBD
+
+### Acknowledgement
+We greatly thank Tulu team for providing awesome [code](https://github.com/allenai/open-instruct) inference and finetuning models.
 
 
 ### Citation
