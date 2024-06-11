@@ -27,7 +27,7 @@ You can also download and view 🥥 CoCoNot in [🤗 Huggingface]().
 TBD
 
 ### Acknowledgement
-We greatly thank Tulu team for providing awesome [code](https://github.com/allenai/open-instruct) inference and finetuning models.
+We greatly thank Tulu team for providing awesome [code](https://github.com/allenai/open-instruct) for inference and finetuning models.
 
 
 ### Citation
