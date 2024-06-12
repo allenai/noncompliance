@@ -18,7 +18,7 @@ CoCoNot contains two components:
     - This set contains 1,001 evaluation and 11,477 SFT training examples.
     
 - Contrast Set: For testing and mitigating exagerrated noncompliance (over-refusals) in LMs:
-    - This set contains 379 evaluation and 927 preference tuning examples.
+    - This set contains 379 evaluation and 927 preference data examples.
 
 
 You can also download and view 🥥 CoCoNot in [🤗 Huggingface]().
