@@ -6,7 +6,7 @@
   <!-- <a href=''>
     <img src='https://img.shields.io/badge/Paper-PDF-yellow?style=flat&logo=arXiv&logoColor=yellow'>
   </a> -->
-  <a href="">
+  <a href="https://huggingface.co/datasets/allenai/coconot">
     <img src="https://img.shields.io/badge/🤗-Data-orange">
   </a>
 
@@ -21,13 +21,21 @@ CoCoNot contains two components:
     - This set contains 379 evaluation and 927 preference data examples.
 
 
-You can also download and view 🥥 CoCoNot in [🤗 Huggingface]().
+You can also download and view 🥥 CoCoNot on [🤗 Huggingface Hub](https://huggingface.co/datasets/allenai/coconot).
 
 ### Evaluation
-TBD
+For evaluation, please install [open-instruct](https://github.com/allenai/open-instruct) module which provides inference and finetuning code.
+
+Then run the following command to evaluate a model (`hf_model_name_or_path`):
+
+```
+bash open-instruct-predict-and-refusal-evaluate.sh ./data/coconot_eval.jsonl <hf_model_name_or_path> "prompt" "false" "refusal" "gpt-3.5-turbo"
+```
+
+You can replace `gpt-3.5-turbo` with a different judge model such as `gpt-4`.
 
 ### Acknowledgement
-We greatly thank Tulu team for providing awesome [open-instruct](https://github.com/allenai/open-instruct) for inference and finetuning models.
+We greatly thank Tulu team for providing the [open-instruct](https://github.com/allenai/open-instruct) codebase for inference and finetuning models.
 
 
 ### Citation
