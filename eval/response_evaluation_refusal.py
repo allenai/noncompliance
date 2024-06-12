@@ -8,7 +8,7 @@ import json
 
 tqdm.pandas()
 
-PROMPT_RUBRIC = json.load(open('/faeze_refusals/refusals/data/refusal_evaluation_rubric.json'))
+PROMPT_RUBRIC = json.load(open('../prompts/refusal_evaluation_rubric.json'))
 
 def get_completion(GEN_MODEL, QUESTION, RESPONSE, eval_set, CATEGORY=None):
 

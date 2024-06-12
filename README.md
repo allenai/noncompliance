@@ -24,7 +24,7 @@ CoCoNot contains two components:
 You can also download and view 🥥 CoCoNot on [🤗 Huggingface Hub](https://huggingface.co/datasets/allenai/coconot).
 
 ### Evaluation
-For evaluation, please install [open-instruct](https://github.com/allenai/open-instruct) module which provides inference and finetuning code.
+For evaluation, please first install [open-instruct](https://github.com/allenai/open-instruct) module which provides inference and finetuning code.
 
 Then run the following command to evaluate a model (`hf_model_name_or_path`):
 
