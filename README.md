@@ -10,7 +10,7 @@
     <img src="https://img.shields.io/badge/🤗-Data-orange">
   </a>
 
-We introduce 🥥 **CoCoNot**, a reasouce for **benchmarking and enhancing noncompliance** behavior of large language models. 
+We introduce 🥥 **CoCoNot**, a resource for **benchmarking and enhancing noncompliance** behavior of large language models. 
 
 ### Data
 CoCoNot contains two components:
