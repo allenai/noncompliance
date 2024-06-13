@@ -3,7 +3,6 @@ model=$2
 output_path="./outputs/outputs.jsonl"
 
 prompt_key=$3
-category_key=$4
 
 echo $input_path
 echo $output_path
@@ -18,24 +17,24 @@ pip install openai==0.28
 # pip install transformers -U
 
 system_prompt=""
-use_system_prompt=$5
+use_system_prompt=$4
 if [[ "$use_system_prompt" == "true" ]]; then 
     system_prompt=./prompts/system_prompt.json
 fi 
 echo "system_prompt"
 echo $system_prompt
 
-taskname=$6
+taskname=$5
 echo "taskname"
 echo $taskname
 
-gpt_model=$7
+gpt_model=$6
 echo $gpt_model
 
 mkdir -p "outputs"
 
 ## specify the chat format based on the tested model.
-## you can write your own customized chat format in open-instruct source code: "open-instruct/eval/templates.py"
+## you can write your own customized chat format in the open-instruct source code: "open-instruct/eval/templates.py"
 if [[ $model == *"Llama-3"* || $model == *"llama-3"* ]]; then
     chat_format="eval.templates.create_prompt_with_llama3_chat_format"
 elif [[ $model == *"Llama-2"* || $model == *"llama-2"* ]]; then

@@ -21,7 +21,11 @@ CoCoNot contains two components:
     - This set contains 379 evaluation and 927 preference data examples.
 
 
-You can also download and view 🥥 CoCoNot on [🤗 Huggingface Hub](https://huggingface.co/datasets/allenai/coconot).
+You can also view and download 🥥 CoCoNot on the [🤗 Huggingface Hub](https://huggingface.co/datasets/allenai/coconot).
+
+#### Seed Prompts
+You can find the seed prompts used for generating the data in [prompts/](https://github.com/allenai/noncompliance/tree/main/prompts) folder.
+
 
 ### Evaluation
 For evaluation, please first install [open-instruct](https://github.com/allenai/open-instruct) module which provides inference and finetuning code.
@@ -33,6 +37,8 @@ bash open-instruct-predict-and-refusal-evaluate.sh ./data/coconot_eval.jsonl <hf
 ```
 
 You can replace `gpt-3.5-turbo` with a different judge model such as `gpt-4`.
+
+Note that you can find our category-scpecific rubric for evaluating responses in [here](https://github.com/allenai/noncompliance/blob/main/prompts/refusal_evaluation_rubric.json).
 
 ### Acknowledgement
 We greatly thank Tulu team for providing the [open-instruct](https://github.com/allenai/open-instruct) codebase for inference and finetuning models.
