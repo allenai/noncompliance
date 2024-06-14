@@ -12,7 +12,7 @@
 
 We introduce 🥥 **CoCoNot**, a resource for **benchmarking and enhancing noncompliance** behavior of large language models. 
 
-### Data
+### 📄 Data
 CoCoNot contains two components:
 - Original Set: For testing and improving contextual noncompliance in LMs.
     - This set contains 1,001 evaluation and 11,477 SFT training examples.
@@ -27,10 +27,12 @@ You can also view and download 🥥 CoCoNot on the [🤗 Huggingface Hub](https:
 You can find the seed prompts used for generating the data in [prompts/](https://github.com/allenai/noncompliance/tree/main/prompts) folder.
 
 
-### Evaluation
-For evaluation, please first install [open-instruct](https://github.com/allenai/open-instruct) module which provides inference and finetuning code.
+### 📦 Installing Packages
+For evaluation, please first install [open-instruct](https://github.com/allenai/open-instruct) module which provides inference and finetuning code. Please follow the installation available in open-instruct.
 
-Then run the following command to evaluate a model (`hf_model_name_or_path`):
+
+### 📊 Evaluation
+Once open-instruct is installed, run the following command to evaluate a model (`hf_model_name_or_path`):
 
 ```
 bash open-instruct-predict-and-refusal-evaluate.sh ./data/coconot_eval.jsonl <hf_model_name_or_path> "prompt" "false" "refusal" "gpt-3.5-turbo"
