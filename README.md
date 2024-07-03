@@ -6,7 +6,7 @@
   <!-- <a href=''>
     <img src='https://img.shields.io/badge/Paper-PDF-yellow?style=flat&logo=arXiv&logoColor=yellow'>
   </a> -->
-  <a href='paper.pdf' class="image fit">
+  <a href='https://nbviewer.org/github/allenai/noncompliance/blob/main/paper.pdf' class="image fit">
     <img src='https://img.shields.io/badge/Paper-PDF-yellow?style=flat&logo=arXiv&logoColor=yellow' alt="">
   </a>
   <a href="https://huggingface.co/datasets/allenai/coconot">
