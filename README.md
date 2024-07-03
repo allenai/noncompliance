@@ -42,6 +42,9 @@ You can replace `gpt-3.5-turbo` with a different judge model such as `gpt-4`.
 
 Note that you can find our category-scpecific rubric for evaluating responses in [here](https://github.com/allenai/noncompliance/blob/main/prompts/refusal_evaluation_rubric.json).
 
+### 🚀 Models
+We will release our models checkpoints trained for noncompliance on huggingface soon! 
+
 ### Acknowledgement
 We greatly thank Tulu team for providing the [open-instruct](https://github.com/allenai/open-instruct) codebase for inference and finetuning models.
 
