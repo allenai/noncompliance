@@ -6,6 +6,9 @@
   <!-- <a href=''>
     <img src='https://img.shields.io/badge/Paper-PDF-yellow?style=flat&logo=arXiv&logoColor=yellow'>
   </a> -->
+  <a href='paper.pdf'>
+    <img src='https://img.shields.io/badge/Paper-PDF-yellow?style=flat&logo=arXiv&logoColor=yellow'>
+  </a>
   <a href="https://huggingface.co/datasets/allenai/coconot">
     <img src="https://img.shields.io/badge/🤗-Data-orange">
   </a>
