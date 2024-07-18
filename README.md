@@ -1,6 +1,6 @@
 ## The Art of Saying No: Contextual Noncompliance in Language Models
 <p align="left">
-  <a href=''>
+  <a href='https://arxiv.org/abs/2407.12043'>
     <img src='https://img.shields.io/badge/Arxiv-2308.16905-A42C25?style=flat&logo=arXiv&logoColor=A42C25'>
   </a>
   <!-- <a href=''>
