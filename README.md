@@ -25,7 +25,8 @@ CoCoNot contains two components:
 
 
 You can also view and download 🥥 CoCoNot on the [🤗 Huggingface Hub](https://huggingface.co/datasets/allenai/coconot). And download them by:
-```
+
+```python
 from datasets import load_dataset
 
 
