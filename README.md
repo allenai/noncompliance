@@ -24,7 +24,20 @@ CoCoNot contains two components:
     - This set contains 379 evaluation and 927 preference data examples.
 
 
-You can also view and download 🥥 CoCoNot on the [🤗 Huggingface Hub](https://huggingface.co/datasets/allenai/coconot).
+You can also view and download 🥥 CoCoNot on the [🤗 Huggingface Hub](https://huggingface.co/datasets/allenai/coconot). And download them by:
+```
+from datasets import load_dataset
+
+
+# load original test set
+coconot_eval = load_dataset("allenai/coconot", "original", split="test")
+
+# load contrast test set
+coconot_contrast_eval = load_dataset("allenai/coconot", "contrast", split="test")
+
+# load preference training set
+coconot_train_pref = load_dataset("allenai/coconot", "pref", split="train")
+```
 
 #### Seed Prompts
 You can find the seed prompts used for generating the data in [prompts/](https://github.com/allenai/noncompliance/tree/main/prompts) folder.
@@ -55,10 +68,13 @@ We greatly thank Tulu team for providing the [open-instruct](https://github.com/
 ### Citation
 If you find this work is relevant with your research, please cite us using:
 ```
-@article{brahman-kumar2024,
-  title={{The Art of Saying No: Contextual Noncompliance in Language Models}},
-  author={Faeze Brahman, Sachin Kumar, Vidhisha Balachandran, Pradeep Dasigi, Valentina Pyatkin, Abhilasha Ravichander, Sarah Wiegreffe, Nouha Dziri, Khyathi Chandu, Jack Hessel, Yulia Tsvetkov, Noah A. Smith, Yejin Choi, Hannaneh Hajishirzi},
-  journal={},
-  year={2024}
+@misc{brahman2024artsayingnocontextual,
+      title={The Art of Saying No: Contextual Noncompliance in Language Models}, 
+      author={Faeze Brahman and Sachin Kumar and Vidhisha Balachandran and Pradeep Dasigi and Valentina Pyatkin and Abhilasha Ravichander and Sarah Wiegreffe and Nouha Dziri and Khyathi Chandu and Jack Hessel and Yulia Tsvetkov and Noah A. Smith and Yejin Choi and Hannaneh Hajishirzi},
+      year={2024},
+      eprint={2407.12043},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2407.12043}, 
 }
 ```
