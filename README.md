@@ -57,7 +57,7 @@ bash open-instruct-predict-and-refusal-evaluate.sh ./data/coconot_eval.jsonl <hf
 
 You can replace `gpt-3.5-turbo` with a different judge model such as `gpt-4`.
 
-Note that you can find our category-scpecific rubric for evaluating responses in [here](https://github.com/allenai/noncompliance/blob/main/prompts/refusal_evaluation_rubric.json).
+Note that you can find our category-specific rubric for evaluating responses in [here](https://github.com/allenai/noncompliance/blob/main/prompts/refusal_evaluation_rubric.json).
 
 ### 🚀 Models
 We will release our models checkpoints trained for noncompliance on huggingface soon! 
